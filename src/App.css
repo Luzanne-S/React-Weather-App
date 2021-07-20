@@ -87,3 +87,6 @@ img {
   max-height: 210px;
   max-width: 200px;
 }
+small {
+  margin-left: 500px;
+}
