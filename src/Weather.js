@@ -1,4 +1,6 @@
 import React from "react";
+import "axios";
+import "./WeatherInfo";
 import "./App.css";
 
 export default function Weather() {
