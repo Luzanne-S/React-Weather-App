@@ -23,7 +23,7 @@ h1 {
   margin-bottom: 0;
 }
 .searchBar {
-  color: #6b9080;
+  color: #e27d60;
   position: relative;
   left: 300px;
   top: 50px;
@@ -44,14 +44,15 @@ h1 {
 }
 .col1 {
   position: relative;
-  left: 220px;
+  left: 200px;
   bottom: 10px;
 }
 li {
   font-size: 13px;
   list-style-type: none;
-  color: #e8a87c;
+  color: #eca87a;
   text-transform: capitalize;
+  padding-right: 0px;
 }
 .date {
   font-size: 14px;
@@ -60,20 +61,19 @@ li {
   color: #e8a87c;
 }
 strong {
-  font-size: 50px;
+  font-size: 60px;
   margin-bottom: 10px;
   width: 100px;
   margin-top: 190px;
-  margin-right: 30px;
-
-  color: #e8a87c;
+  margin-right: 40px;
+  color: #c38d9e;
 }
 .units {
   font-size: 20px;
   position: relative;
   left: 4px;
   bottom: 20px;
-  color: #e8a87c;
+  color: #c38d9e;
 }
 
 a {
@@ -81,15 +81,15 @@ a {
   position: relative;
   right: 6px;
   bottom: 1px;
-  color: #e8a87c;
+  color: #c38d9e;
 }
 a:hover {
   color: #c28a64;
 }
 .TemperatureIcon {
   position: relative;
-  bottom: 70px;
-  left: 150px;
+  bottom: 85px;
+  left: 180px;
 }
 
 .container2 {
