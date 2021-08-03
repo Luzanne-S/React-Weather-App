@@ -10,4 +10,8 @@
 .WeatherForecast {
   position: relative;
   bottom: 65px;
+  color: #31a596;
+}
+.col {
+  padding: 0%;
 }
