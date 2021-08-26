@@ -9,9 +9,17 @@
 
 .WeatherForecast {
   position: relative;
-  bottom: 65px;
-  color: #31a596;
+  bottom: 15vh;
+  color: #212529;
 }
 .col {
   padding: 0%;
+  width: 50%;
+}
+
+@media (max-width: 900px) {
+  .results {
+    height: 60vh;
+    overflow-x: hidden;
+  }
 }
