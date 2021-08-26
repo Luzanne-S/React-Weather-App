@@ -100,3 +100,9 @@ footer {
 .icon {
   color: #b7e4c7;
 }
+@media (max-width: 900px) {
+  .results {
+    height: 60vh;
+    overflow-x: hidden;
+  }
+}
