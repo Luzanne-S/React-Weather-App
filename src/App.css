@@ -93,6 +93,11 @@ a:hover {
   max-height: 210px;
   max-width: 200px;
 }
+@media (max-width: 800px) {
+  .container2 {
+    flex-direction: column;
+  }
+}
 footer {
   text-align: center;
   font-size: 15px;
