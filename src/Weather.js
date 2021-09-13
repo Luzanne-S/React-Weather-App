@@ -76,8 +76,8 @@ export default function Weather(props) {
   } else {
     search();
     return (
-      <div class="spinner-border text-secondary" role="status">
-        <span class="sr-only">Loading...</span>
+      <div className="spinner-border text-secondary" role="status">
+        <span className="sr-only">Loading...</span>
       </div>
     );
   }
