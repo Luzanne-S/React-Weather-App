@@ -7,9 +7,9 @@ export default function WeatherInfo(props) {
   return (
     <div className="WeatherInfo">
       <h1>{props.data.city}</h1>
-      <div className="container2">
+      <div id="container-fluid">
         <div className="row">
-          <div className="col">
+          <div className="flex-column">
             <ul>
               <li>
                 <WeatherDate date={props.data.date} />
@@ -19,14 +19,13 @@ export default function WeatherInfo(props) {
               <li>Wind: {props.data.wind}km</li>
             </ul>
           </div>
-          <div className="col1">
+          <div className="flex-column-1">
             <strong>
               <WeatherTemperature celsius={props.data.temperature} />
             </strong>
-
-            <span className="TemperatureIcon">
-              <WeatherIcon code={props.data.icon} />
-            </span>
+          </div>
+          <div className="flex-column-2">
+            <WeatherIcon code={props.data.icon} />
           </div>
         </div>
       </div>
