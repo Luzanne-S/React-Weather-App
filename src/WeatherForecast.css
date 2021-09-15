@@ -1,5 +1,8 @@
 .WeatherForecast {
   text-align: center;
+  position: relative;
+  bottom: 13vh;
+  color: #212529;
 }
 
 .WeatherForecast-temperature-min {
@@ -7,19 +10,8 @@
   margin-left: 5px;
 }
 
-.WeatherForecast {
+.flex-col {
   position: relative;
-  bottom: 13vh;
-  color: #212529;
-}
-.col {
-  padding: 0%;
-  width: 50%;
-}
-
-@media (max-width: 900px) {
-  .results {
-    height: 60vh;
-    overflow-x: hidden;
-  }
+  width: 20%;
+  top: -30vh;
 }
