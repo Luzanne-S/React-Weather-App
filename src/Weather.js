@@ -39,19 +39,20 @@ export default function Weather(props) {
   if (weatherData.ready) {
     return (
       <div className="Weather">
-        <div className="container-fluid">
+        <div className="container-fluid main">
           <form onSubmit={handleSubmit}>
-            <div className="form-inline my-2 my-lg-0 searchBar">
+            <div className="d-flex justify-content-center searchBar">
               <input
                 className="form-control mr-sm-2"
                 type="search"
                 placeholder="Search city"
                 aria-label="Search"
                 onChange={handleCityChange}
+            
               />
-
+              
               <button
-                className="btn btn-outline-secondary my-2 my-sm-0"
+                className="btn btn"
                 type="submit"
                 value="Search"
               >
