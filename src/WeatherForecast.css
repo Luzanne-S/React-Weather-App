@@ -10,8 +10,12 @@
   margin-left: 5px;
 }
 
-.flex-col {
-  position: relative;
-  width: 20%;
+.col-sm {
   top: -30vh;
+}
+
+@media screen and (max-width: 700px) {
+  .col-sm  {
+    margin-top: 15%;
+  }
 }
