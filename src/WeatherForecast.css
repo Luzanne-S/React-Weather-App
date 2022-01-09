@@ -1,7 +1,7 @@
 .WeatherForecast {
   text-align: center;
   position: relative;
-  bottom: 13vh;
+  top: -40vh;
   color: #212529;
 }
 
@@ -14,8 +14,23 @@
   top: -30vh;
 }
 
-@media screen and (max-width: 700px) {
+@media (min-width: 360px) and (max-width: 780px) {
   .col-sm  {
     margin-top: 15%;
   }
+
+}
+@media (min-width: 360px) and (max-width:415px) {
+.WeatherForecast{
+padding-top:95%;
+margin-top:10%;
+}
+}
+
+@media (min-width: 740px) and (max-width:896px) {
+  .WeatherForecast{
+    padding-top:10%;
+    margin-top:10%;
+    }
+
 }
